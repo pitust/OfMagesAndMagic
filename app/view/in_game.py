@@ -256,7 +256,7 @@ class SpellFactory:
     BEHIND   = -1
 
     def __init__(self):
-        Blueprint = namedtuple('Blueprint', ['sprite_sheet', 'has_direction', 'position', 'n_frames', 'x_offset', 'y_offset'], verbose=False)
+        Blueprint = namedtuple('Blueprint', ['sprite_sheet', 'has_direction', 'position', 'n_frames', 'x_offset', 'y_offset'])
         self.spells = {
             "Rock Smash"       : Blueprint("rock_smash",       False, self.OVERLAY,  8,   0,   0),
             "Bassault"         : Blueprint("bassault",         True,  self.IN_FRONT, 8, -30,   0),

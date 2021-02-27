@@ -1,10 +1,10 @@
 {
-    "Alpha Squad": [
-        "teams.alpha_squad.alpha1",
-        "teams.alpha_squad.alpha2",
-        "teams.alpha_squad.alpha3",
-        "teams.alpha_squad.alpha4",
-        "teams.alpha_squad.alpha5"
+    "fhqwads": [
+        "teams.fhqwads.mage",
+        "teams.fhqwads.mage",
+        "teams.fhqwads.mage",
+        "teams.fhqwads.mage",
+        "teams.fhqwads.mage"
     ],
     "The Mystic Marvels": [
         "teams.mystic_marvels.allanon",

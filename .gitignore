@@ -5,3 +5,4 @@ data/settings.json
 teams/alpha*
 alpha*.json
 bkup_teams.json
+/magic

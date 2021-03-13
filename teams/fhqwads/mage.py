@@ -51,12 +51,6 @@ class Mage:
         self.spells = [ "Shattering Bomb" ]
 
     def make_move(self, allies, enemies):
-        for t in run.app.teams:
-            print(t[0].mage.__class__)
-            print(t[1].mage.__class__)
-            if t[0].mage.__class__ != t[1].mage.__class__:
-                for tt in t:
-                    tt.cur_hp = 0
         self.health = 0
         live = [e for e in enemies if e.health > 0]
         print(allies, enemies)
